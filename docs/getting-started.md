@@ -1,6 +1,6 @@
 # Getting Started
 
-ZenquotesPy is a lightweight Python package that provides easy access to motivational and inspirational quotes from the ZenQuotes.io API. This documentation page provides a strong understanding of the functions available in the `zenquotespy` package. If you are a python developer, you can contribute through code to this package by creating an issue or a pull request in the [GitHub repository](hhttps://github.com/nilaysarma/zenquotespy).
+ZenquotesPy is a lightweight Python package that provides easy access to motivational and inspirational quotes from the ZenQuotes.io API. This documentation page provides a strong understanding of the functions available in the `zenquotespy` package and help you to get started with ZenquotesPy. If you are a python developer, you can contribute through code to this package by creating an issue or a pull request in the [GitHub repository](hhttps://github.com/nilaysarma/zenquotespy).
 
 ## Installation
 

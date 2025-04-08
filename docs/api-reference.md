@@ -1,6 +1,6 @@
 # API reference
 
-This page gives an overview of all functions available in `zenquotespy` package.
+Get more out of ZenquotesPy. This page provides an overview of all functions available in the `zenquotespy` package.
 
 ## zenquotespy.random()
 Get a random quote on each request.
