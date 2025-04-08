@@ -1,9 +1,9 @@
-site_name: ZenQuotes Python
+site_name: ZenquotesPy
 site_url: https://www.example.com
 theme:
   name: material
-  logo: zenquotes-python.png
-  favicon: zenquotes-python.png
+  logo: zenquotespy.png
+  favicon: zenquotespy.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -34,13 +34,11 @@ nav:
   - Home: index.md
   - Getting Started: getting-started.md
   - API reference: api-reference.md
-  - page 2: page2.md
-  - page 3: page3.md
 
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/nilaysarma
+      link: https://github.com/nilaysarma/zenquotespy
 
 markdown_extensions:
   - pymdownx.highlight:

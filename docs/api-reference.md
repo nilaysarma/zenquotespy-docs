@@ -1,8 +1,8 @@
 # API reference
 
-This page gives an overview of all functions available in `zenquotes` package.
+This page gives an overview of all functions available in `zenquotespy` package.
 
-## zenquotes.random()
+## zenquotespy.random()
 Get a random quote on each request.
     
 Returns:
@@ -11,14 +11,14 @@ Returns:
 
 Example:
 ```py
-import zenquotes
+import zenquotespy
 
-quote = zenquotes.random()
+quote = zenquotespy.random()
 
 print(quote)
 ```
 
-## zenquotes.today()
+## zenquotespy.today()
 Get the quote of the day on each request.
 
 Returns:
@@ -27,14 +27,14 @@ Returns:
 
 Example:
 ```py
-import zenquotes
+import zenquotespy
 
-quote = zenquotes.today()
+quote = zenquotespy.today()
 
 print(quote)
 ```
 
-## zenquotes.get_bulk_quotes()
+## zenquotespy.get_bulk_quotes()
 Get 50 random quotes on each request.
 
 Returns:
@@ -43,15 +43,15 @@ Returns:
 
 Example:
 ```py
-import zenquotes
+import zenquotespy
 
-quotes = zenquotes.get_bulk_quotes()
+quotes = zenquotespy.get_bulk_quotes()
 
 for quote in quotes:
     print(quote)
 ```
 
-## zenquotes.image()
+## zenquotespy.image()
 Get a random inspirational image on each request.
 
 Args:
@@ -64,23 +64,23 @@ Returns:
 
 Example:
 ```py
-import zenquotes
+import zenquotespy
 
-img = zenquotes.image()
+img = zenquotespy.image()
 
 print(f"Quote image successfully saved to {img}")
 ```
 
 Example with custom path:
 ```py
-import zenquotes
+import zenquotespy
 
-img = zenquotes.image("images/quote.jpg")
+img = zenquotespy.image("images/quote.jpg")
 
 print(f"Quote image successfully saved to {img}")
 ```
 
-## zenquotes.attribution()
+## zenquotespy.attribution()
 Attribution for inspirational quotes provided by <a href="https://zenquotes.io/" target="_blank">ZenQuotes API</a>
 
 Returns:
@@ -89,9 +89,9 @@ Returns:
 
 Example:
 ```py
-import zenquotes
+import zenquotespy
 
-attrib = zenquotes.attribution()
+attrib = zenquotespy.attribution()
 
 print(attrib)
 ```
