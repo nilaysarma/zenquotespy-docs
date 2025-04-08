@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  {% if page.url == "" %}
+    <!-- Meta only for home -->
+    <meta property="og:description" content="ZenquotesPy is a lightweight Python package that provides easy access to motivational and inspirational quotes from the ZenQuotes.io API.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://zenquotespy.pages.dev/zenquotespy-banner.png">
+    <meta name="google-site-verification" content="gs5tunB5W-VHcuhZjZSxVmuyQ8bzIOBREGRm10b7As4" />
+  {% endif %}
+{% endblock %}
