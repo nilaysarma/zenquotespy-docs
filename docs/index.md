@@ -1,6 +1,6 @@
 # Home
 
-ZenquotesPy is a lightweight Python package that provides easy access to motivational and inspirational quotes from the ZenQuotes.io API. Whether you're building a chatbot, a productivity app, a daily quote generator, or just want a little inspiration in your terminal — this package makes it effortless. It is published as a Python package named `zenquotespy` on [PyPI](https://pypi.org/project/zenquotespy).
+ZenquotesPy is a lightweight Python package that provides easy access to motivational and inspirational quotes from the ZenQuotes.io API. Whether you're building a chatbot, a productivity app, a daily quote generator, or just want a little inspiration in your terminal — this package makes it effortless. It is published as a Python package named `zenquotespy` on [PyPI](https://pypi.org/project/zenquotespy). ZenquotesPy stands for Zenquotes Python, which means Zenquotes for Python developers.
 
 * Fetch a single random quote.
 * Retrieve 50 quotes in bulk with one call.
