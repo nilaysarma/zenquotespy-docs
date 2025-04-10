@@ -3,6 +3,8 @@
 Get more out of ZenquotesPy. This page provides an overview of all functions available in the `zenquotespy` package.
 
 ## zenquotespy.random()
+`random()`
+
 Get a random quote on each request.
     
 Returns:
@@ -19,6 +21,9 @@ print(quote)
 ```
 
 ## zenquotespy.today()
+`today()`
+
+
 Get the quote of the day on each request.
 
 Returns:
@@ -35,6 +40,8 @@ print(quote)
 ```
 
 ## zenquotespy.get_bulk_quotes()
+`get_bulk_quotes()`
+
 Get 50 random quotes on each request.
 
 Returns:
@@ -52,6 +59,8 @@ for quote in quotes:
 ```
 
 ## zenquotespy.image()
+`image()`
+
 Get a random inspirational image on each request.
 
 Args:
@@ -81,6 +90,8 @@ print(f"Quote image successfully saved to {img}")
 ```
 
 ## zenquotespy.attribution()
+`attribution()`
+
 Attribution for inspirational quotes provided by <a href="https://zenquotes.io/" target="_blank">ZenQuotes API</a>
 
 Returns:
